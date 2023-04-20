@@ -6,6 +6,10 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+img {
+    filter: blur(5px);
+  }
+  
 
 section {
     position: relative;
@@ -14,7 +18,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url("images/backG.jpeg") no-repeat;
+    background: url("images/B-ground.jpeg") no-repeat;
     background-size: cover;
     background-position: left;
 
@@ -27,6 +31,18 @@ section {
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  header .logo{
+    position: relative;
+    color: #000;
+    font-size: 34px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+
   }
   
   

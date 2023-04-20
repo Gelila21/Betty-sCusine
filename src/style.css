@@ -6,9 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-img {
-    filter: blur(5px);
-  }
+
   
 
 section {
@@ -133,4 +131,18 @@ section {
     bottom: -6px;
   }
 
+ 
+  
+  /* Style the Google Maps location */
+  iframe {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+  }
+
+  #contact-us {
+    background-color: white !important;
+    padding: 70px;
+  }
+  
   

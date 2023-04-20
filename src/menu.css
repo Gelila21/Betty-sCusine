@@ -4,7 +4,7 @@ body {
     }
     
     header {
-    background-color: #333;
+    background-color: rgb(182, 143, 92);
     color: white;
     padding: 20px;
     display: flex;
@@ -116,6 +116,27 @@ body {
     }
     }
     
+    .back-btn {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+    
+    .back-btn {
+        color: white;
+        background-color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: 0.3s;
+        transition-property: background;
+      }
+      .back-btn:hover {
+        background : brown;
+      }
     
     
     

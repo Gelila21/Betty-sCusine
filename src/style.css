@@ -112,15 +112,21 @@ header .navigation a:hover {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 5px;
   transition: 0.3s background;
+  border: 2px solid transparent;
   
 }
 
 .content .menu-btn:hover {
   background : brown;
+  border-color: #000;
 }
+.content .menu-btn:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.5);
+  }
 
 footer {
     background-color: #333;
@@ -154,4 +160,6 @@ header .logo {
   background-color: white !important;
   padding: 70px;
   font-size: 26px;
+  width: 100%;
+margin: 40px auto;
 }

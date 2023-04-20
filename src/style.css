@@ -78,6 +78,15 @@ section {
     max-width: 650px;
     margin: 60px 100px;
   }
+  .content {
+    background-color:rgb(193, 157, 66);
+    padding: 20px; /* add some padding to create some space between the text and the background */
+  }
+  
+  .info {
+    background-color: transparent; /* set the background of the info div to transparent to allow the content div background to show through */
+  }
+  
 
   .content .info h2{
     font-size: 50px;
@@ -114,6 +123,6 @@ section {
     transition: 0.3s;
     transition-property: background;
   }
-  header .menu-btn:hover{
+ .content .menu-btn:hover{
     background : brown;
   }

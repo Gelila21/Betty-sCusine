@@ -50,6 +50,7 @@ header .navigation {
 }
 
 header .navigation a {
+    font-size: 20px;
   color: white;
   background: #000;
   text-decoration: none;

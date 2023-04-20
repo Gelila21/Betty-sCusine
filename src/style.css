@@ -9,7 +9,7 @@
 
   
 
-section {
+section  {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -17,8 +17,11 @@ section {
     flex-direction: column;
     justify-content: flex-start;
     background: url("images/B-ground.jpeg") no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover ;
     background-position: left;
+ 
+
 
   }
 
@@ -134,10 +137,11 @@ section {
  
   
   /* Style the Google Maps location */
-  iframe {
+  #contact-us iframe {
     border: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 40px;
+    background-color: white !important;
   }
 
   #contact-us {

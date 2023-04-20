@@ -44,5 +44,58 @@ section {
     letter-spacing: 1px;
 
   }
+
+  header .navigation {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+   
+  }
   
+  header .navigation a {
+   
+    color: white;
+    background: #000;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+  }
+  
+  header .navigation a:not(:last-child){
+
+    margin-right: 30px;
+  }
+
+  header .navigation a:hover{
+    background : brown;
+  }
+  
+  .content{
+    max-width: 650px;
+    margin: 60px 100px;
+  }
+
+  .content .info h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+
+  }
+
+  .content .info h2 span{
+      
+      font-size: 45px;
+      font-weight: 600;
+  }
+
+  .content .info p{
+    
+  }
   

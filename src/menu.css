@@ -123,6 +123,7 @@ body {
       }
     
     .back-btn {
+        position: fixed;
         color: white;
         background-color: #000;
         text-decoration: none;

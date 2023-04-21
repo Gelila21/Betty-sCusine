@@ -51,12 +51,12 @@ body {
     }
     
     .item {
-    flex: 1 1 30%;
+    flex: 1 1 24%;
     margin: 20px;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px #ddd;
     text-align: center;
-    padding: 20px;
+    padding: 26px;
     transition: all 0.3s ease;
     }
     

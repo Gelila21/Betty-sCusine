@@ -4,8 +4,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    color: #333;
-    background-image: url('https://images.unsplash.com/photo-1494707924465-e1426acb48c2');
+    color: black;
+    background-image: url("images/Bunaa.jpeg") ;
     background-size: cover;
     background-position: center;
 }
@@ -22,7 +22,8 @@ h1 {
     font-weight: 400;
     margin-bottom: 60px;
     text-align: center;
-    color: #333;
+    color: black;
+    background-color: rgba(182, 143, 92, 0.8);
 }
 
 h2 {
@@ -30,7 +31,7 @@ h2 {
     font-weight: 600;
     font-size: 36px;
     margin-bottom: 20px;
-    color: #333;
+    color: black;
 }
 
 main .aboutUS {

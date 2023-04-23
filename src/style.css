@@ -64,9 +64,15 @@ header .social-icons a {
         color: #000;
         margin-left: 10px;
       }
-header  .social-icons i {
-        font-size: 17px;
+      .social-icons i {
+        font-size: 25px;
+        transition: color 0.3s ease;
       }
+      
+      .social-icons a:hover i {
+        color: white;
+      }
+      
       
 
 .wrapper {

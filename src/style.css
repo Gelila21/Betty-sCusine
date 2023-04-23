@@ -8,6 +8,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   
+  
 }
 
 /* Style the main section */
@@ -18,7 +19,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background: url("images/Bunaa.jpeg") no-repeat;
+  background: url("images/B-ground.jpeg") no-repeat; 
   background-size: cover;
   background-position: left;
   background-attachment: fixed;
@@ -29,8 +30,8 @@ section {
 header {
     background-color: rgb(182, 143, 92);
     color: rgb(18, 18, 18);
-    font-size: 40px;
- position: relative;
+    font-size: 50px;
+    position: relative;
   top: 0;
   width: 100%;
   padding: 30px 100px;
@@ -40,71 +41,96 @@ header {
 }
 
 header .logo {
-  position: relative;
-
-  font-size: 40px;
+  position:relative;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  font-family: 'Kdam Thmor Pro', serif;
-font-size: 70px;
-margin-bottom: 6px;
-text-align: center;
-color: black;
+  font-family: 'Cormorant', serif;
+
+font-family: 'Kdam Thmor Pro', serif;
+  font-size: 70px;
+  margin-bottom: 6px;
+  text-align: center;
+ color: black;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+.navigation {
+    display: block;
+    columns: 3;
+    column-gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 0;
+    flex: 2;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
   
-}
+  .navigation a {
+    display: block;
 
-header .navigation {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-
-}
-
-header .navigation a {
- 
-    font-size: 19px;
-  color: blanchedalmond;
-  background: #000;
-  text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 1px;
-  padding: 2px 15px;
-  border-radius: 20px;
-  transition: 0.3s background;
-  margin-right: 30px;
-  letter-spacing: 2px;
-}
-
-header .navigation a:hover {
-  background : brown;
-}
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .navigation a:hover {
+    color: #ff9900;
+  }
+  
+  .sub-navigation {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sub-navigation a {
+    margin-bottom: 10px;
+  }
 
 /* Style the content section */
 .content {
   max-width: 650px;
-  margin: 60px auto;
-  background-color: rgb(182, 143, 92);
+  font-family: 'Playfair Display', serif;
+  margin-left: auto;
+  flex: 7;
+  
+  flex-direction: row;
+  /*background-color: rgb(182, 143, 92);*/
   padding: 70px;
   border-radius: 10px;
 box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-align-items: center;
-flex-direction: column;
+align-items: right;
+flex-direction: row;
 justify-content: center;
 display: flex;
 
 }
 
 .content .info h2 {
-  color: rgb(36, 31, 20);
-  font-size: 50px;
+  color: black;
+  font-family: 'Lora', serif;
+  
+  font-size: 40px;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 2px;
   line-height: 60px;
   margin-bottom: 30px;
   
+}
+.content .info h3 {
+    font-size: 30px;
+    font-family: 'Lora', serif;
 }
 
 .content .info h2 span {
@@ -114,12 +140,14 @@ display: flex;
 
 .content .info p {
   font-size: 16px;
+  font-family: 'Lora', serif;
+
   font-weight: 500;
   margin-bottom: 40px;
   
 }
 
-.content .menu-btn {
+.back-btn {
   color: blanchedalmond;
   background-color: #000;
   text-decoration: none;
@@ -134,11 +162,11 @@ display: flex;
   
 }
 
-.content .menu-btn:hover {
+ .back-btn:hover {
   background : brown;
   border-color: #000;
 }
-.content .menu-btn:focus {
+ .back-btn:focus {
     outline: none;
     box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.5);
   }
@@ -197,7 +225,7 @@ transform: translateY(-5px);
     }
 #contact-us {
     
-    background-image: url('images/Bunaa.jpeg'); /* set a background image */
+   /* background-image: url('images/Bunaa.jpeg'); /* set a background image */
     background-size: cover; 
     width: 100%;
   align-items: center;
@@ -211,7 +239,7 @@ transform: translateY(-5px);
     height: 700px;
   margin: 60px auto;
   background-color: rgb(182, 143, 92);
-  padding: 40px;
+  padding: 100px;
   border-radius: 10px;
 box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 align-items: center;
@@ -242,6 +270,14 @@ display: flex;
   
   .contact h4 {
     font-size: 18px;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .contact h2{
+    font-size: 25px ;
     margin: 0;
     font-weight: normal;
     text-transform: uppercase;

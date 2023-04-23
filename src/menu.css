@@ -58,11 +58,14 @@ body {
     text-align: center;
     padding: 26px;
     transition: all 0.3s ease;
+    border-radius: 10px;
     }
     
     .item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    background-color: #f2f2f2;
     }
     
     .item img {
@@ -73,17 +76,24 @@ body {
     
     .item:hover img {
     transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.2);
+ 
     }
     
     .item h3 {
     margin: 20px 0 10px;
     font-size: 24px;
     text-transform: uppercase;
+    transition: all 0.3s ease;
     }
+    .item:hover h3 {
+       
+        transition: all 0.3s ease;
+      }
     
     .item p {
     margin: 0;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
     color: #666;
     }

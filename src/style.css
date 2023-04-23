@@ -27,7 +27,7 @@ section {
 header {
     background-color: rgb(182, 143, 92);
     color: rgb(18, 18, 18);
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
   top: 0;
   width: 100%;
@@ -200,9 +200,9 @@ display: flex;
   color: black;
   font-family: 'Lora', serif;
   
-  font-size: 40px;
+  font-size: 50px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: 2px;
   line-height: 60px;
   margin-bottom: 30px;
@@ -310,7 +310,7 @@ transform: translateY(-5px);
 .contact{
     background-color: rgb(182, 143, 92);
     width: 650px;
-    height: 700px;
+    height: 660px;
   margin: 60px auto;
   background-color: rgb(182, 143, 92);
   padding: 100px;

@@ -7,10 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  
-  
 }
-
 /* Style the main section */
 section {
   
@@ -41,61 +38,138 @@ header {
 }
 
 header .logo {
+    font-size: 20px;
   position:relative;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 100;
   letter-spacing: 1px;
-  font-family: 'Cormorant', serif;
-
-font-family: 'Kdam Thmor Pro', serif;
-  font-size: 70px;
+  /*font-family: 'Cormorant', serif;*/
+  font-family: 'Playfair Display', serif;
+  
   margin-bottom: 6px;
-  text-align: center;
+  text-align: right;
  color: black;
 }
+
+header .social-icons{
+    
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 20px;
+      }
+      
+header .social-icons a {
+        color: #000;
+        margin-left: 10px;
+      }
+header  .social-icons i {
+        font-size: 17px;
+      }
+      
+
 .wrapper {
     display: flex;
     flex-direction: row;
   }
 .navigation {
-    display: block;
+    display: flex;
     columns: 3;
     column-gap: 20px;
     justify-content: flex-end;
     align-items: center;
     padding: 20px 0;
     flex: 2;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    /*box-shadow: 0 2px 5px rgba(0,0,0,0.2);*/
+    flex-direction: column;
+  align-items: center;
   }
   
   .navigation a {
+    
     display: block;
-
     margin-bottom: 10px;
     margin: 0;
     padding: 10px;
     text-align: center;
     text-decoration: none;
     color: black;
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: 50;
     font-family: 'Playfair Display', serif;
     transition: all 0.3s ease;
+    position: relative;
   }
-  
   
   .navigation a:hover {
-    color: #ff9900;
+    color: rgb(182, 143, 92);
+    text-decoration: underline;
+    transform: translateZ(0);
   }
   
-  .sub-navigation {
-    display: flex;
-    flex-direction: column;
+  .navigation a:hover:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(182, 143, 92);
+    transform-origin: bottom right;
+    transform: scale(0,1);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .navigation a:hover:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(182, 143, 92);
+    transform-origin: bottom left;
+    transform: scale(0,1);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .navigation a:hover:before,
+  .navigation a:hover:after {
+    display: block;
+  }
+  
+  .navigation a:hover:before {
+    animation: line-extend-top 0.3s forwards;
+  }
+  
+  .navigation a:hover:after {
+    animation: line-extend-bottom 0.3s forwards;
+  }
+  
+  @keyframes line-extend-top {
+    from {
+      transform: scale(0,1);
+    }
+    to {
+      transform: scale(1,1);
+    }
+  }
+  
+  @keyframes line-extend-bottom {
+    from {
+      transform: scale(0,1);
+    }
+    to {
+      transform: scale(1,1);
+    }
   }
   
   .sub-navigation a {
     margin-bottom: 10px;
   }
+
+  
 
 /* Style the content section */
 .content {
@@ -134,18 +208,12 @@ display: flex;
 }
 
 .content .info h2 span {
+    font-family: 'Lora', serif;
   font-size: 45px;
-  font-weight: 600;
+  font-weight: 200;
 }
 
-.content .info p {
-  font-size: 16px;
-  font-family: 'Lora', serif;
 
-  font-weight: 500;
-  margin-bottom: 40px;
-  
-}
 
 .back-btn {
   color: blanchedalmond;
@@ -200,8 +268,8 @@ header .logo {
     align-items: center;
     flex-direction: column;
     margin: 10px auto;
-
-
+    border-radius: 10px; /* add border radius to round the corners */
+    overflow: hidden; 
     transition: all 0.3s ease;
 }
 #contact-us iframe:hover{
@@ -211,7 +279,7 @@ transform: translateY(-5px);
 
 #contact-us h1 {
     background-color: rgb(182, 143, 92);
-    font-family: 'Kdam Thmor Pro', serif;
+    font-family: 'Playfair Display', serif;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -248,8 +316,6 @@ justify-content: center;
 display: flex;
 
 }
-
-
 
 .contact a {
     color: #fff; /* change the link color to white */

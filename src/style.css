@@ -25,6 +25,7 @@ section {
 
 /* Style the header */
 header {
+    
     background-color: rgb(182, 143, 92);
     color: rgb(18, 18, 18);
     font-size: 40px;
@@ -309,19 +310,21 @@ transform: translateY(-5px);
 }
 .contact{
     background-color: rgb(182, 143, 92);
+    
+    background-size: 300px;
+    background-repeat: repeat;
     width: 650px;
     height: 660px;
-  margin: 60px auto;
-  background-color: rgb(182, 143, 92);
-  padding: 100px;
-  border-radius: 10px;
-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-align-items: center;
-flex-direction: column;
-justify-content: center;
-display: flex;
-
-}
+    margin: 60px auto;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+  }
+  
 
 .contact a {
     color: #fff; /* change the link color to white */

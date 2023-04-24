@@ -344,3 +344,37 @@ header .logo {
 .B .bac-btn:hover {
   background-color: #060606; /* Change the background color on hover */
 }
+
+@media only screen and (max-width: 768px) {
+  header {
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  .wrapper {
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  
+  .navigation {
+    columns: unset;
+    padding: 0;
+    height: auto;
+    margin-top: 50px;
+  }
+  
+  .navigation a {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .content {
+    margin: 50px 0;
+    border-radius: 0;
+    border: none;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+}

@@ -347,8 +347,9 @@ header .logo {
 
 @media only screen and (max-width: 768px) {
   header {
-    font-size: 30px;
+    font-size: 20px;
     padding: 20px;
+    margin-left: 0%;
   }
   
   .wrapper {
@@ -376,5 +377,18 @@ header .logo {
     max-width: 100%;
     height: auto;
     padding: 20px;
+
+
+  }
+
+  .contact{
+    
+      margin: 50px 0;
+      border-radius: 0;
+      border: none;
+      max-width: 100%;
+      height: auto;
+      padding: 20px;
+  
   }
 }

@@ -37,6 +37,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -2%;
 }
 
 header .logo {
@@ -335,7 +336,7 @@ header .logo {
 }
 .B .bac-btn {
   display: inline-block;
-  background-color:  rgb(182, 143, 92); /* Set the background color */
+  background-color: rgb(182, 143, 92); /* Set the background color */
   color: white;
   padding: 10px 20px;
   text-decoration: none;
@@ -351,27 +352,26 @@ header .logo {
     padding: 20px;
     margin-left: 0;
     margin-right: auto;
-}
+  }
 
-  
   .wrapper {
     flex-direction: column;
     margin: 0 10px;
   }
-  
+
   .navigation {
     columns: unset;
     padding: 0;
     height: auto;
     margin-top: 50px;
   }
-  
+
   .navigation a {
     font-size: 30px;
     margin-bottom: 20px;
     padding: 20px;
   }
-  
+
   .content {
     margin: 50px 0;
     border-radius: 0;
@@ -379,18 +379,14 @@ header .logo {
     max-width: 100%;
     height: auto;
     padding: 20px;
-
-
   }
 
-  .contact{
-    
-      margin: 50px 0;
-      border-radius: 0;
-      border: none;
-      max-width: 100%;
-      height: auto;
-      padding: 20px;
-  
+  .contact {
+    margin: 50px 0;
+    border-radius: 0;
+    border: none;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
   }
 }

@@ -1,6 +1,6 @@
 # Betty-sCusine
 
-This is an unofficial small business website that I developed as part of the assessment for Snapchat Academies summer program. The website is designed for a small business and aims to showcase its products, services, and contact information.
+This is an unofficial small business website that I developed. The website is designed for a small business and aims to showcase its products, services, and contact information.
 
 Technologies Used
 

@@ -4,7 +4,7 @@ $servername = "localhost";
 $username = "username";
 $password = "password";
 $dbname = "reservation_system";
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password, $db);
 
 // Check connection
 if (!$conn) {
